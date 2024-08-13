@@ -1,4 +1,6 @@
+from bisect import bisect_left, bisect_right
 
-stages = [2, 1, 2, 6, 2, 4, 3, 3]
+stages = [1, 2, 3]
 
-print(sum(stages))
+for i in stages:
+    print(i, end=' ')
