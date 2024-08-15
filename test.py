@@ -1,6 +1,6 @@
-from bisect import bisect_left, bisect_right
+n = 5
+dp = []
+for i in range(1, n+1):
+    dp.append([0 for _ in range(i)])
 
-stages = [1, 2, 3]
-
-for i in stages:
-    print(i, end=' ')
+print(dp)

@@ -12,8 +12,9 @@ def binary_search(array, start, end):
             cal += high
         else:
             cal += data
-
-    if cal > total_money:
+    if cal == total_money:
+        return cal
+    elif cal > total_money:
         return binary_search(array, start, high - 1)
 
     elif cal < total_money:
