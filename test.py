@@ -1,6 +1,8 @@
-n = 5
-dp = []
-for i in range(1, n+1):
-    dp.append([0 for _ in range(i)])
 
-print(dp)
+from collections import deque
+
+a = deque()
+a.append(3)
+print(a[0])
+
+print(len(a))
