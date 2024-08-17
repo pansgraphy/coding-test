@@ -1,8 +1,5 @@
+n = [1,2,3,4 ]
+n.remove(2)
 
-from collections import deque
 
-a = deque()
-a.append(3)
-print(a[0])
-
-print(len(a))
+print(n)
