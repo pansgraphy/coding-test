@@ -19,3 +19,5 @@ indexed_array = [(value, index) for index, value in enumerate(b)]
 sorted_indexed_array = sorted(indexed_array, key=lambda x: x[0], reverse=True)
 
 # 이럴 빠에 그냥 보는게 나을듯..!
+
+
