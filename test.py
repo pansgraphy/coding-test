@@ -1,6 +1,2 @@
-graph = []
-for i in range(5):
-    for j in range(5):
-        graph[i][j].append(0)
-
+graph = [0] * (5 + 1)
 print(graph)
