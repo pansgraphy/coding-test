@@ -1,6 +1,5 @@
-n = 5
-visited = [0] * (n + 1)
-graph = [[] for _ in range(n + 1)]
+import bisect
 
-print(visited)
-print(graph)
+a = [1,2,4]
+
+print(bisect.bisect_left(a, 3))
